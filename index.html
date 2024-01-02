@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9e9ad697fd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        <div class="header-text">
+            <p>NEWBIE</p>
+            <h1>Hi, I'm <span>Hendrik</span><br>Tarigan From Indonesia</h1>
+        </div>
+    </div>
+</div>
+<!-- -------------------ABOUT------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/potogw.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <ul>Perkenalkan Nama Saya Muhammad Hendrik Tarigan.
+                Mahasiswa semester 6 jurusan Sistem Informasi yang 
+                berkuliah di Institut Teknologi dan Bisnis Ahmad Dahlan Jakarta.
+                Keseharian saya aktif berkuliah dan mengikuti beberapa Organisasi yang ada di kampus
+                </ul>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('hard-skill')">Hard Skill</p>
+                    <p class="tab-links" onclick="opentab('soft-skill')">Soft Skill</p>
+                    <p class="tab-links" onclick="opentab('motto')">Motto Hidup</p>
+                </div>
+                <div class="tab-contents active-tab" id="hard-skill">
+                    <ul>
+                        <li><span>Web Development</span><br>Mampu mengoperasikan html, css, javascript, dan sql</li>
+                        <li><span>Ms Office</span><br>Mampu mengoperasikan microsoft office dengan baik</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="soft-skill">
+                    <ul>
+                        <li><span>Problem Solving</span><br>Mampu menangani problem solving dengan baik</li>
+                        <li><span>Team Work</span><br>Mampu bekerja sama dengan tim</li>
+                        <li><span>Berpikir Kritis</span><br>Mampu membuat keputusan sesuai dengan informasi yang menghasilkan solusi</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="motto">
+                    <ul>
+                        <li><span>Albert Einstein</span><br>Science Without Religion is Lame and Religion Without Science is Blind</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------------SERVICES------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Skill</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Desain Web</h2>
+                <p>Membuat desain ui pada figma atau canva dan juga mengimplementasikannya pada code</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-figma"></i>
+                <h2>Desain Poster</h2>
+                <p>Mendesain poster-poster hari raya, ucapan selamat, kegiatan organisasi, dan lain lain</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-file"></i>
+                <h2>Microsoft Office</h2>
+                <p>Membuat laporan-laporan seperti laporan kegiatan, laporan keuangan, dan lain lain</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------------PORTFOLIO------------------- -->
+<div id="galeri">
+    <div class="container">
+        <h1 class="sub-title">Galeri</h1>
+        <div class="activity-list">
+            <div class="activity">
+                <img src="images/hendrik1.png">
+                <div class="isian">
+                    <h3>Gunung Slamet</h3>
+                    <p>Memiliki ketinggian ±3428mdpl</p>
+                    <a href="#"><i class="fa-regular fa-image"></i></a>
+                </div>
+            </div> 
+            <div class="activity">
+                <img src="images/hendrik2.png">
+                <div class="isian">
+                    <h3>Gunung Arjuno</h3>
+                    <p>Memiliki ketinggian ±3339mdpl</p>
+                    <a href="#"><i class="fa-regular fa-image"></i></a>
+                </div> 
+            </div>
+            <div class="activity">
+                <img src="images/hendrik3.png">
+                <div class="isian">
+                    <h3>Gunung Slamet</h3>
+                    <p>Memiliki ketinggian ±3265mdpl</p>
+                    <a href="#"><i class="fa-regular fa-image"></i></i></a>    
+                </div> 
+            </div>
+        </div> 
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>hendriktarigan30@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>089637719519</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/h.tarigannn_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/ucok1s/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/hendrik-tarigan-bbb7562a1/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/cv-hendrik.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Nama" placeholder="Nama Kamu" required>
+                    <input type="text" name="Email" placeholder="Email Kamu" required>
+                    <textarea name="Pesan" rows="6" placeholder="Pesan Kamu"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="pesan">Haii</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Hendrik. Website Sederhana <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+
+<script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxGXobg7rKh_fFzSivEdpKtEfRNyXtdbRkVrDhvR_qyweKa28gCoQoEovY24LLcXx89/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const pesan = document.getElementById("pesan")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            pesan.innerHTML = "Pesan Sukses Terkirim"
+            setTimeout(function(){
+                pesan.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
